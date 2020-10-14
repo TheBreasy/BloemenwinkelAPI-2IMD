@@ -1,12 +1,12 @@
 using System;
 using System.Linq;
-using BloemenwinkelAPI.Database;
-using BloemenwinkelAPI.Models.Domain;
-using BloemenwinkelAPI.Models.Web;
+using BloemenwinkelAPI.API.Database;
+using BloemenwinkelAPI.API.Models.Domain;
+using BloemenwinkelAPI.API.Models.Web;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace BloemenwinkelAPI.Controllers
+namespace BloemenwinkelAPI.API.Controllers
 {
     [ApiController]
     [Route("Bloemenwinkel")]
