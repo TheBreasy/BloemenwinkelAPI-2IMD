@@ -7,7 +7,7 @@ namespace BloemenwinkelAPI.API.Models.Domain
         [Required]
         public string Name { get; set;}
         [Required]
-        public string Adres{ get; set;}
+        public string Adres { get; set;}
         [Required]
         public string Regio { get; set;}
     }

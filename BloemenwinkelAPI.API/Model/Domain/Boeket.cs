@@ -7,7 +7,7 @@ namespace BloemenwinkelAPI.API.Models.Domain
         [Required]
         public string Name { get; set;}
         [Required]
-        public double Prijs{ get; set;}
+        public double Prijs { get; set;}
         [Required]
         public string Beschrijving { get; set;}
     }

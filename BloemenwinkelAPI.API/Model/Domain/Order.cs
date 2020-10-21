@@ -2,9 +2,9 @@ using System.Collections.Generic;
 
 namespace BloemenwinkelAPI.API.Models.Domain
 {
-    public class Boeket : BaseDatabaseClass
+    public class Order : BaseDatabaseClass
     {
         [Required]
-        public int Id{ get; set;}
+        public int Id { get; set;}
     }
 }
